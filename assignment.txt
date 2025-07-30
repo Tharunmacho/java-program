@@ -1,0 +1,15 @@
+import java.io.*;
+ class Assign {
+    public static void main(String[] args) {
+        int a = 4;
+        int var = a;
+
+        System.out.println("var = " + var);
+
+        var += a;
+        System.out.println("var = " + var);
+
+        var *= a;
+        System.out.println("var = " + var);
+    }
+}

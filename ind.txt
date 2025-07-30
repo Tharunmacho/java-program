@@ -1,0 +1,17 @@
+import java.io.*;
+class Ined {
+    public static void main(String[] args) {
+        int a = 12, b = 12;
+        int c, d;
+
+        System.out.println("Value of a: " + a);
+
+        c = ++a;  // Pre-increment: a becomes 13, c = 13
+        System.out.println("Value of c (after ++a): " + c);
+
+        d = --b;  // Pre-decrement: b becomes 11, B = 11
+        System.out.println("Value of B (after --b): " + d);
+
+        System.out.println("Final values -> a: " + a + ", b: " + b + ", c: " + c + ", d: " + d);
+    }
+}
